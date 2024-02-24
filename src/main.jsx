@@ -9,7 +9,7 @@ import {
 
 const router = createBrowserRouter([
   {
-    index: true,
+    path: '/ComingSoon',
     element: <Construction />,
   },
 ]);
