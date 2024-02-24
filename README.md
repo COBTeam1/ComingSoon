@@ -1,2 +1,0 @@
-# ComingSoon
-ComingSoon Page

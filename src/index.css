@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+      font-family: 'Inter', serif;
+    }
+}
+
+/* Styling for Construction Page */
+
+.construction-text{
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  @media (min-width: 768px) {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  };
+  font-weight: 500;
+  color: #423f3d;
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.caret {
+  animation: blink 1.06s step-start infinite;
+}
